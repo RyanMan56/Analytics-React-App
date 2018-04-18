@@ -1,0 +1,116 @@
+.item {
+  height: 100%;
+  flex: 1;
+}
+
+.item-body {
+  display: flex;
+  height: 100%;
+  flex: 4;
+}
+
+.body-section {
+  flex: 1
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  border-right-style: solid;
+  border-right-color: #F794EF;
+  border-right-width: 2px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-top {
+  flex: 1.25;
+  border-bottom-style: solid;
+  border-bottom-color: #F794EF;
+  border-bottom-width: 2px;
+}
+
+.left-bottom {
+  flex: 1;
+}
+
+.right-top {
+  flex: 1;
+  border-bottom-style: solid;
+  border-bottom-color: #F794EF;
+  border-bottom-width: 2px;
+}
+
+.right-bottom {
+  flex: 1;
+}
+
+.section {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h3 {
+  font-weight: normal;
+  margin: 0;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-family: Roboto, sans-serif;
+  padding: 0;
+  color: #F794EF;
+}
+
+.property-container {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #AA7CF9;
+}
+
+.property-container > p {
+  display: inline-block;
+  flex: 1;
+}
+
+.property-title {
+  color: #F794EF;
+}
+
+.property-body {
+  flex: 5;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.property-footer {
+  flex: 1;
+}
+
+.property-back {
+  margin-top: 50px;
+}
+
+.metric-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.metric-body {
+  flex: 4;
+}
+
+.metric-footer {
+  flex: 1;
+}
+
+.metric-btn {
+  float: right;
+  margin-top: 20px;
+}

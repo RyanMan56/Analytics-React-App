@@ -1,0 +1,16 @@
+.button {
+  box-shadow: none !important;
+  width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.secondary {
+  border-style: solid;
+  border-width: 1px;
+  float: right;
+}
+
+.center-container {
+  justify-content: center;
+}

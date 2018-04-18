@@ -1,0 +1,64 @@
+.create-metric {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.metric-create-btn {
+  margin-top: 10px;
+  margin-left: 0;
+
+}
+
+.manage-metrics {
+  margin-top: 20px;
+}
+
+.metric-parts {
+  height: 107px;
+}
+
+.prop-id {
+  margin-right: 10px;
+}
+
+.prop-container {
+  display: inline-block;
+}
+
+.metric-item {
+  min-height: 107px;
+  display: block;
+}
+
+.metric-container, .metric-parts {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.manage-prop-container {
+  display: block;
+}
+
+.manage-prop-container > p {
+  display: block;
+}
+
+.manage-proj-section {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.instructions-container {
+  margin: 10px;
+  margin-left: 70px;
+  margin-top: 0;
+}
+
+.manage-items {
+  margin: 30px;
+  margin-right: 0;
+}
+
+.pink {
+  color: #F794EF;
+}

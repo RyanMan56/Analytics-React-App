@@ -1,0 +1,26 @@
+.logo-center {
+  text-align: center;
+}
+
+.logo-wrap {
+  margin: auto 0;
+  margin-bottom: 0;
+}
+
+.logo-svg, .logo {
+  height: 150px;
+  margin: auto;
+}
+
+.logo-svg {
+  background-color: #DDDFDF;
+}
+
+.logo-title {
+  font-weight: normal;
+  margin: auto 0;
+  font-size: 2.25em;
+  font-family: Roboto, sans-serif;
+  padding: 0;
+  color: #F794EF;
+}
