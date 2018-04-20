@@ -172,6 +172,9 @@ class ManageProject extends Component {
           <div className="body-section right manage-proj-section">
             <h3>Linking to Code</h3>
             <div className="instructions-container">
+              {(project != null) &&
+                <p className="instructions">API Key: <span className="pink">{project.apiKey}</span></p>
+              }
               <p className="instructions">To begin recording your own analytic data first make sure to send a <span className="pink">HTTP Post</span> request to:</p>
               <p className="pink">{url}{routes.getProjectUsers}/{routes.login}</p>
               <p>The body of the request acceps the <span className="pink">x-www-form-urlencoded</span> content type. The required attributes are:</p>
